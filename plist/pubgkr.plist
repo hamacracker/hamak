@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/car-x-street-hama-expert/CarX%20Street%20-%20HamaExpert.ipa</string>
+					<string>https://archive.org/download/hama-v-2-2.5.0-1681294929/HAMA%20V2_2.5.0_1681294929.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.carxtech.sr12</string>
+				<string>com.pubg.krmobile555</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>CarxStreet</string>
+				<string>PUBG MOBILE KR</string>
 				<key>title</key>
-				<string>CarxStreet</string>
+				<string>PUBG MOBILE KR</string>
 			</dict>
 		</dict>
 	</array>
