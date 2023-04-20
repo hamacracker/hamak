@@ -44,7 +44,15 @@ body {
   letter-spacing: 0px;
   text-align: center;
   color: #000000;
-  
+  background-color: goldenrod;
+  width: 350px;
+  height: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  padding-top: 30PX;
 
 }
 
@@ -253,3 +261,27 @@ span {
     background: #08c;
     color: white;
   }
+
+  /* APPLE ID FREE */
+  .apple{
+    background-color: goldenrod;
+    width: 260px;
+    height: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    border: 4px solid black;
+    border-radius: 30px;
+  }
+  .apple1{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+  }
+
+  

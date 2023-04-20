@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./layout/index.css">
+    <title>Apple id VIP</title>
+</head>
+<body class="bg-white">
+
+    <img src="./layout/image/surah.jpg" width="300" class="flex mx-auto" alt="surah">
+<div class="mx-auto text-center p-4 bg-gray-500 container mb-4 rounded font-bold text-white">
+    <p>APPLE ID VIP</p>
+</div>
+
+<div class="container mx-auto">
+    <p id="email" class=" text-center bg-gray-700 mx-auto px-3 text-white  rounded  text-center font-bold mx-auto"></p>
+    <p id="password" class="bg-gray-700 text-center mx-auto px-3  rounded text-white  text-center font-bold mx-auto   "></p>
+    <p id="error" class=" text-center mx-auto px-3  rounded text-red-500 text-center font-bold mx-auto   "></p>
+</div>
+    <div class="container bg-gray-600 rounded p-10 mx-auto">
+        <input id="code" type="text" placeholder="CODE" class="text-center outline-none mx-auto flex rounded px-3 py-2 text">
+        <button onclick="show()" id="btn" class="flex text-center font-bold mx-auto text-black px-3 py-2 mt-3 bg-white rounded">Show password</button>
+    </div>
+
+
+    <script>
+        function show(){
+            var code = document.getElementById("code").value
+            var emaill = document.getElementById("email")
+            var passwordd = document.getElementById("password")
+            var error = document.getElementById("error")
+
+            var email = "kurdtestid@mail.com";
+            var password = "12345678Aa";
+            if(code == 1234){
+            error.innerHTML = ''
+            emaill.innerHTML = email;
+            passwordd.innerHTML = password;
+            passwordd.classList.add("m-6");
+            emaill.classList.add("m-6");
+            passwordd.classList.add("px-3");
+            emaill.classList.add("px-3");
+            passwordd.classList.add("py-3");
+            emaill.classList.add("py-3");
+
+            }else{
+            passwordd.classList.remove("m-6");
+            emaill.classList.remove("m-6");
+            passwordd.classList.remove("px-3");
+            emaill.classList.remove("px-3");
+            passwordd.classList.remove("py-3");
+            emaill.classList.remove("py-3");    
+            emaill.innerHTML = ''
+            passwordd.innerHTML = ''
+            error.innerHTML = 'Code is incorect'
+            error.classList.add("m-5");    
+
+            }
+        }
+        
+    </script>
+</body>
+</html>
+

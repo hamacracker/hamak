@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-hamaexpert.netlify.com-8.3.2-1681472451/Video%20Star%20hamaexpert.netlify.com_8.3.2_1681472451.ipa</string>
+					<string>https://archive.org/download/video-star-hamaexpert.netlify.app-8.3.2-1681996300/Video%20Star%20hamaexpert.netlify.app_8.3.2_1681996300.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostar55</string>
+				<string>com.frontierdesign.videostar33</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
