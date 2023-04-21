@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/snapchat-falcon-12.20.0-1681996775/Snapchat%20Falcon_12.20.0_1681996775.ipa</string>
+					<string>https://archive.org/download/snapchat-falcon-12.20.0-1682097133/Snapchat%20Falcon_12.20.0_1682097133.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>‏com.toyopagroup1.picaboo56</string>
+				<string>‏com.toyopagroup1.picaboo6</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>SnapchatIP-falcon</string>
+				<string>Snapchatfalcon</string>
 				<key>title</key>
-				<string>SnapchatIP-falcon</string>
+				<string>Snapchatfalcon</string>
 			</dict>
 		</dict>
 	</array>
